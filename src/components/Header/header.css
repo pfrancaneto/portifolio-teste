@@ -55,14 +55,14 @@ header {
   right: -2.3rem;
   bottom: 5rem;
   transform: rotate(90deg);
-  font-weight: 200;
+  font-weight: 300;
   font-size: 0.9rem;
 }
 
 /* ====== Media Queries (Devices Médios) ====== */
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 90vh;
   }
 }
 
@@ -78,5 +78,5 @@ header {
 }
 
 
-
+ 
 
