@@ -58,11 +58,11 @@ const Portifolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portifólio</h2>
       <div className="container portifolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, img, title, github, demo }) => {
           return (
             <article key={id} className="portifolio__item">
               <div className="portifolio__item-image">
-                <img src={image} alt={title} />
+                <img src={img} alt={title} />
               </div>
               <h3>{title}</h3>
               <div className="portifolio__item-cta">
